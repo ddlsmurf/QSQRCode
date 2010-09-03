@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>QSQRCode</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.ssofts.Quicksilver.QSQRCode</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>QSQRCode</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleVersion</key>
+	<string>6E</string>
+	<key>NSPrincipalClass</key>
+	<string>QSQRCode</string>
+	<key>QSActions</key>
+	<dict>
+		<key>QSQRCopyCodeAction</key>
+		<dict>
+			<key>actionClass</key>
+			<string>QSQRCodeAction</string>
+			<key>actionSelector</key>
+			<string>copyCodeForObject:</string>
+			<key>directTypes</key>
+			<array>
+				<string>*</string>
+			</array>
+			<key>name</key>
+			<string>Copy QRCode</string>
+			<key>validatesObjects</key>
+			<false/>
+		</dict>
+		<key>QSQRShowCodeAction</key>
+		<dict>
+			<key>actionClass</key>
+			<string>QSQRCodeAction</string>
+			<key>actionSelector</key>
+			<string>showCodeForObject:</string>
+			<key>directTypes</key>
+			<array>
+				<string>*</string>
+			</array>
+			<key>name</key>
+			<string>Show QRCode</string>
+			<key>validatesObjects</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>QSPlugIn</key>
+	<dict>
+		<key>author</key>
+		<string>Eric Doughty-Papassideris</string>
+		<key>categories</key>
+		<array>
+			<string>Miscellaneous</string>
+		</array>
+		<key>description</key>
+		<string>&lt;h3&gt;Description&lt;/h3&gt;
+Displays objects as &lt;a href="http://en.wikipedia.org/wiki/QR_Code"&gt;QR Code&lt;/a&gt; 2D barcodes
+&lt;br/&gt;&lt;br/&gt;&lt;h3&gt;Credits&lt;/h3&gt;
+Most of the difficult code is written by:
+&lt;ul&gt;
+&lt;li&gt;libqrencode 3.1 by FUKUCHI Kentaro (&lt;a href="http://megaui.net/fukuchi/works/qrencode/index.en.html"&gt;http://megaui.net/...&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Quicksilver plugin Xcode template by Ankur Kothari &lt;a href="http://lipidity.com/apple/quicksilver-plugins-in-objective-c"&gt;http://lipidity.com/...&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;UI code heavily inspired from &lt;a href="http://github.com/andreberg/blacktree-alchemy/blob/B5X/Quicksilver/Code-QuickStepInterface/QSLargeTypeDisplay.m"&gt;QuickSilvers Large Type by Alcor&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;A tiny function copied from &lt;a href="http://code.google.com/p/mactlmgr/source/browse/trunk/TLMStatusWindow.m?spec=svn569&amp;r=569"&gt;Adam Maxwell - TeX Live Manager&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+Image conversion, cocoa &amp;quot;ui&amp;quot;, and blending the above resources by &lt;a href="http://s-softs.com"&gt;Eric Doughty-Papassideris&lt;/a&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;h3&gt;Licence&lt;/h3&gt;
+IDC v2.0 (&amp;quot;I Dont Care&amp;quot;)
+&lt;br/&gt;&lt;br/&gt;&lt;h3&gt;Disclaimer&lt;/h3&gt;
+Carefull: I don't want to know about what
+happened (or not) because of this code.
+You are running it &amp;quot;as-is&amp;quot;,
+and it &amp;quot;is not my problem&amp;quot;.
+</string>
+		<key>icon</key>
+		<string>QSQRCode</string>
+		<key>qsversion</key>
+		<string>29CC</string>
+		<key>relatedBundles </key>
+		<array/>
+	</dict>
+	<key>QSRegistration</key>
+	<dict>
+		<key>QSActionProviders</key>
+		<dict>
+			<key>QSQRCodeAction</key>
+			<string>QSQRCodeAction</string>
+		</dict>
+	</dict>
+	<key>QSResourceAdditions</key>
+	<dict>
+		<key>QSQRCode</key>
+		<dict>
+			<key>bundle</key>
+			<string>com.ssofts.Quicksilver.QSQRCode</string>
+			<key>resource</key>
+			<string>QSQRCode.icns</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
