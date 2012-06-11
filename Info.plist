@@ -60,6 +60,8 @@
 			<string>Miscellaneous</string>
 		</array>
 		<key>description</key>
+		<string>Displays objects as QR Code</string>
+		<key>extendedDescription</key>
 		<string>&lt;h3&gt;Description&lt;/h3&gt;
 Displays objects as &lt;a href="http://en.wikipedia.org/wiki/QR_Code"&gt;QR Code&lt;/a&gt; 2D barcodes
 &lt;br/&gt;&lt;br/&gt;&lt;h3&gt;Credits&lt;/h3&gt;

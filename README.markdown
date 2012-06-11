@@ -21,7 +21,7 @@ Credits
 Most of the difficult code is written by:
 
 * **[libqrencode 3.1 by FUKUCHI Kentaro](http://megaui.net/fukuchi/works/qrencode/index.en.html)**
-* UI code heavily inspired from [QuickSilvers Large Type by Alcor](http://github.com/andreberg/blacktree-alchemy/blob/B5X/Quicksilver/Code-QuickStepInterface/QSLargeTypeDisplay.m)
+* UI code heavily inspired from [QuickSilvers Large Type by Alcor](https://github.com/quicksilver/Quicksilver/blob/master/Quicksilver/Code-QuickStepInterface/QSLargeTypeDisplay.m)
 *	Quicksilver Plugin tutorials and template: [Ankur Kothari](http://lipidity.com/apple/quicksilver-plugins-in-objective-c/)
 
 Disclaimer
