@@ -63,20 +63,20 @@
 		<string>Displays objects as QR Code</string>
 		<key>extendedDescription</key>
 		<string>&lt;h3&gt;Description&lt;/h3&gt;
-Displays objects as &lt;a href="http://en.wikipedia.org/wiki/QR_Code"&gt;QR Code&lt;/a&gt; 2D barcodes
+Displays objects as &lt;a href=&quot;http://en.wikipedia.org/wiki/QR_Code&quot;&gt;QR Code&lt;/a&gt; 2D barcodes
 &lt;br/&gt;&lt;br/&gt;&lt;h3&gt;Credits&lt;/h3&gt;
 Most of the difficult code is written by:
 &lt;ul&gt;
-&lt;li&gt;libqrencode 3.1 by FUKUCHI Kentaro (&lt;a href="http://megaui.net/fukuchi/works/qrencode/index.en.html"&gt;http://megaui.net/...&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Quicksilver plugin Xcode template by Ankur Kothari &lt;a href="http://lipidity.com/apple/quicksilver-plugins-in-objective-c"&gt;http://lipidity.com/...&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;UI code heavily inspired from &lt;a href="http://github.com/andreberg/blacktree-alchemy/blob/B5X/Quicksilver/Code-QuickStepInterface/QSLargeTypeDisplay.m"&gt;QuickSilvers Large Type by Alcor&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;A tiny function copied from &lt;a href="http://code.google.com/p/mactlmgr/source/browse/trunk/TLMStatusWindow.m?spec=svn569&amp;r=569"&gt;Adam Maxwell - TeX Live Manager&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;libqrencode 3.1 by FUKUCHI Kentaro (&lt;a href=&quot;http://megaui.net/fukuchi/works/qrencode/index.en.html&quot;&gt;http://megaui.net/...&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Quicksilver plugin Xcode template by Ankur Kothari &lt;a href=&quot;http://lipidity.com/apple/quicksilver-plugins-in-objective-c&quot;&gt;http://lipidity.com/...&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;UI code heavily inspired from &lt;a href=&quot;http://github.com/andreberg/blacktree-alchemy/blob/B5X/Quicksilver/Code-QuickStepInterface/QSLargeTypeDisplay.m&quot;&gt;QuickSilvers Large Type by Alcor&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;A tiny function copied from &lt;a href=&quot;http://code.google.com/p/mactlmgr/source/browse/trunk/TLMStatusWindow.m?spec=svn569&amp;r=569&quot;&gt;Adam Maxwell - TeX Live Manager&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-Image conversion, cocoa &amp;quot;ui&amp;quot;, and blending the above resources by &lt;a href="http://s-softs.com"&gt;Eric Doughty-Papassideris&lt;/a&gt;
+Image conversion, cocoa &amp;quot;ui&amp;quot;, and blending the above resources by &lt;a href=&quot;http://s-softs.com&quot;&gt;Eric Doughty-Papassideris&lt;/a&gt;
 &lt;br/&gt;&lt;br/&gt;&lt;h3&gt;Licence&lt;/h3&gt;
 IDC v2.0 (&amp;quot;I Dont Care&amp;quot;)
 &lt;br/&gt;&lt;br/&gt;&lt;h3&gt;Disclaimer&lt;/h3&gt;
-Carefull: I don't want to know about what
+Carefull: I don&apos;t want to know about what
 happened (or not) because of this code.
 You are running it &amp;quot;as-is&amp;quot;,
 and it &amp;quot;is not my problem&amp;quot;.
